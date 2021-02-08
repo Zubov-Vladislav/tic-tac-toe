@@ -48,7 +48,7 @@ const Game = ({history}) => {
 
   const renderRow = (sum) => (<div className="game-container__table__row">
     {game.cells?.splice(0, 3).map((cell, index) => (
-      <div key={generateKey('cell')} onClick={handleCell(index + sum)} className="game-container__table__row__cell">
+      <div key={generateKey(`cell-${index}-${sum}-`)} onClick={handleCell(index + sum)} className="game-container__table__row__cell">
         {cell === game.firstPlayerId ? 'X'
           : cell === game.secondPlayerId ? 'O' : ''}
       </div>))}

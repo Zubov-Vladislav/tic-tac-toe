@@ -24,8 +24,8 @@ const Registration = ({ history }) => {
         username,
         password
       }, (error, result) => {
-        setErrorMessage(error.error)
         if(!error) history.push('/login')
+        else setErrorMessage(error.error)
       });
     }
   }

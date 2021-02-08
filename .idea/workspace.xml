@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb060108-0cd4-43b2-bc56-32fefb83c311" name="Default Changelist" comment="" />
+    <list default="true" id="fb060108-0cd4-43b2-bc56-32fefb83c311" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/containers/Game/Game.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/containers/Game/Game.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/containers/Registration/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/containers/Registration/Registration.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1oACRxTltp4TFuTHn17cYtTMOAW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,11 +77,24 @@
       <updated>1612720007226</updated>
       <workItem from="1612720009346" duration="5222000" />
       <workItem from="1612725963209" duration="1698000" />
-      <workItem from="1612729293638" duration="25578000" />
+      <workItem from="1612729293638" duration="27458000" />
+      <workItem from="1612772951114" duration="791000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
