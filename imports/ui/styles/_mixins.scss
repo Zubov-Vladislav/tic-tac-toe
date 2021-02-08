@@ -1,0 +1,23 @@
+@import "variables";
+@mixin button($bg-color:#BE008A, $color: #FFFFFF) {
+  height: 2rem;
+  min-width: 4rem;
+  padding: .1rem;
+  position: relative;
+  display: inline-block;
+  color: $color;
+  background-color: $bg-color;
+  cursor: pointer;
+
+  border: none;
+  border-radius: $border-radius;
+  &:hover {
+    opacity: .8;
+  }
+}
+
+@mixin place($align: center, $justify: center) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}

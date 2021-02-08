@@ -1,0 +1,32 @@
+@import '../../styles/variables';
+
+.error-container {
+  margin-top: 1rem;
+  padding: 1rem;
+
+  background-color: $error-bg-color;
+  border: 1px solid $error-border-color;
+  border-radius: $border-radius;
+
+  color: black;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap:1rem;
+  ul {
+    padding: 0 1rem;
+  }
+  button {
+    padding: 0 .1rem .1rem .1rem;
+
+    width: 1.5rem;
+    height: 1.5rem;
+
+    background-color: transparent;
+    border: 1px solid $error-border-color;
+    border-radius: $border-radius;
+
+    cursor: pointer;
+  }
+}

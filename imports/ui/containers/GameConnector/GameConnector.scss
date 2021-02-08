@@ -1,0 +1,9 @@
+@import '../../styles/_mixins.scss';
+
+.game-connector {
+    width: 100%;
+    height: 100%;
+
+    @include place();
+    flex-direction: column;
+}

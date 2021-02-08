@@ -1,0 +1,51 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
+.game, .game-container__hints,
+.game-container__table, .game-container__table__row,
+.game-container__table__row__cell {
+  @include place()
+}
+
+
+
+.game {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+
+  &-container {
+    &__users {
+      @include place(center, space-between)
+    }
+    &__users, &__hints {
+      margin: 1rem 0;
+    }
+
+    &__name {
+      font-size: 1rem;
+      text-align: center;
+    }
+    &__table {
+      flex-direction: column;
+
+      &__row {
+        flex-direction: row;
+
+        &__cell {
+          width: 5rem;
+          height: 5rem;
+          margin: .1rem;
+          font-size: 2rem;
+
+          border: 1px solid $additional-color;
+          border-radius: $border-radius;
+        }
+      }
+    }
+    &__btn {
+      width: 100%;
+      @include button($additional-orange-color, #000000)
+    }
+  }
+}

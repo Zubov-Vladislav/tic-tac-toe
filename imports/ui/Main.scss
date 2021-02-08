@@ -1,0 +1,15 @@
+@import "./styles/reset";
+@import './styles/variables';
+@import './styles/forms';
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+
+  color: white;
+  background-color: $primary-bg-color;
+}
